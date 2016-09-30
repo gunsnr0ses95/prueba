@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular JS</title>
+  <script src="lib/angular.min.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/controllers/helloWorldController.js"></script>
+</head>
+<body ng-app="myAngularApplication">
+  <h1>Angular JS - Lesson 1</h1>
+  <h2>{{2+2}}</h2>
+  <div ng-controller="helloWorldController">
+    <h2>{{hola}}</h2>
+    <input type="text" ng-model=hola>
+  </div>
+</body>
+</html>
